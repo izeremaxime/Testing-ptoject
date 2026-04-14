@@ -1,0 +1,5 @@
+{
+    "spec": "tests/mocha/**/*.js",
+    "recursive": true,
+    "timeout": 5000
+}
