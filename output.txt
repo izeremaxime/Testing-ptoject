@@ -1,0 +1,5 @@
+
+> testing-MAXIME@1.0.0 start
+> node app.js
+
+◇ injected env (3) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
