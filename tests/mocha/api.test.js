@@ -7,8 +7,8 @@ describe('API Tests with ES Modules', () => {
     it('GET / should return sucess message', async () => {
         const response = await request(app).get('/');
         expect(response.status).to.equal(200);
-        expect(response.body.message).to.equal('Testing environment ready!');
-        expect(response.body.moduleTypes).to.equal('ES modules');
+        expect(response.body.message).to.equal('SQA Course Enveronment is ready');
+        expect(response.body.moduleType).to.equal('ES modules');
     });
 
     it('GET /health should return health status', async () => {
